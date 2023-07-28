@@ -1,7 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
     font-family: Poppins;
+    background-color: #ECFFFD;
 }
+
+.text1{
+    color: black;
+    /* font-size: 50px;
+    font-weight: 700;
+    font-style: normal; */
+}
+
+.text2{
+    color: #02B106;
+}
+
+.text3{
+        color: #FF5C00;
+        /* font-family: Poppins;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700; */
+}
+
+.text4{
+    color: #000;
+    /* font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; */
+}
+.text5{
+    color: #000;
+    /* font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; */
+}
+
+
+
+/* search bar*/
+/* .search{
+    border: 1px solid #c4c4c4;
+    width: 500px;
+    overflow-x: hidden;
+    display: flex;
+    border-radius: 50px;
+    font-size: 18px;
+    position: relative;
+    left:30%;
+    top:200px;
+} */
+
+/* button */
+
+
+.button{
+    background-color: #02B106;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #ffffff;
+    font-size: 15px;
+    
+}
+
+.button:hover{
+    background-color: #ffffff;
+    border-color: #02b106;
+    border-width: 2px;
+    color: #000;
+}
+
