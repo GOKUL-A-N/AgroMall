@@ -10,7 +10,7 @@ const CategoryCard = (props) => {
       backgroundPosition: 'center',
       height: '150px',
     }}>
-      <div className="flex-1 flex pl-5 items-center"><h3 className='text-white w-[50%] text-[20px] md:text-[30px] lg:text-[40px]  font-bold'>{props.name}</h3></div>
+      <div className="flex-1 flex pl-5 items-center"><h3 className=' object-fit text-white w-[50%] text-[20px] md:text-[20px] lg:text-[20px]  font-bold'>{props.name}</h3></div>
     </div>
   )
 }

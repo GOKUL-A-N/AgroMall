@@ -9,10 +9,10 @@ const Deals = () => {
   return (
     <div className='flex flex-col mt-10'>
       <div>
-        <h3 className='text-[20px] md:text-[30px] lg:text-[40px] text2 font-bold'>Conquer the hottest</h3>
-        <h2 className='text-[30px] md:text-[40px] lg:text-[50px] font-extrabold'>Deals</h2>
+        <h3 className='text-[20px] md:text-[30px] lg:text-[30px] text2 font-bold'>Conquer the hottest</h3>
+        <h2 className='text-[30px] md:text-[40px] lg:text-[40px] font-extrabold'>Deals</h2>
       </div>
-      <div className='flex overflow-x-scroll p-4  '>
+      <div className='flex overflow-x-scroll md:overflow-hidden p-4  '>
       <ProductCard 
       name="Apple"
       img={appleImg}
