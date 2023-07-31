@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProductCard = (props) => {
   return (
-    <div className='flex'>
+    <div className='flex mb-5 w-[170px]'>
       <div  className='ml-5 flex items-center relative w-[150px]' style={{
       backgroundImage: `url(${props.img})`,
       // backgroundImage: `url(${externalImage})`,
